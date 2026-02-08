@@ -1,5 +1,101 @@
-origen,destino,duracion,precio,calidad_del_boleto
-Cádiz,Bilbao,11.89,176.46,Estándar
-A Coruña,Lugo,17.48,231.78,Básico
-Gijón,Lugo,8.98,107.21,Premium
-Palma,Valencia,15.97,249.44,Premium
+origen,destino,fecha,duracion,precio,calidad_del_boleto
+Cádiz,Las Palmas,2026-03-09,34.63,168.95,Básico
+Málaga,Cádiz,2026-11-14,15.34,132.81,Premium
+Valencia,Mahón,2026-05-28,13.23,177.05,VIP
+Barcelona,Valencia,2026-04-03,9.09,100.18,Premium
+Valencia,Mahón,2026-09-12,9.5,158.33,Premium
+Vigo,A Coruña,2026-05-01,18.49,110.86,Premium
+Bilbao,A Coruña,2026-08-27,15.84,166.13,Premium
+Cádiz,Santa Cruz de Tenerife,2026-07-13,45.11,280.02,VIP
+A Coruña,Santa Cruz de Tenerife,2026-06-28,47.37,359.29,Premium
+Barcelona,Valencia,2026-04-12,12.42,67.56,Premium
+Vigo,Las Palmas,2026-08-05,41.64,220.94,Premium
+Bilbao,Santander,2026-05-16,12.17,87.97,Básico
+A Coruña,Santa Cruz de Tenerife,2026-09-03,41.68,309.35,Premium
+Bilbao,Melilla,2026-03-24,3.0,56.75,Premium
+Cádiz,Santa Cruz de Tenerife,2026-04-01,31.82,157.43,Básico
+Bilbao,Santander,2026-08-25,14.79,124.95,Estándar
+Cádiz,Ceuta,2026-03-10,1.1,63.43,Premium
+Huelva,Almería,2026-10-08,7.7,54.71,Básico
+Alicante,Ibiza,2026-03-02,7.23,101.67,Estándar
+Málaga,Melilla,2026-11-14,2.91,38.28,Estándar
+Barcelona,Valencia,2026-10-11,10.77,57.18,Estándar
+Barcelona,Mahón,2026-04-23,9.54,131.95,Premium
+Vigo,A Coruña,2026-03-12,12.21,95.96,Premium
+Valencia,Mahón,2026-05-30,9.51,87.7,Básico
+A Coruña,Barcelona,2026-10-11,8.8,113.43,Premium
+Bilbao,A Coruña,2026-10-05,8.5,59.77,Premium
+Huelva,Santander,2026-12-01,19.01,113.0,Básico
+A Coruña,Santa Cruz de Tenerife,2026-06-22,38.03,224.85,Estándar
+Almería,Melilla,2026-08-01,2.55,57.18,Premium
+Valencia,Ibiza,2026-04-08,11.44,116.98,Premium
+Barcelona,Ibiza,2026-07-27,11.76,72.38,Estándar
+Málaga,Cádiz,2026-11-04,8.33,92.16,Premium
+Barcelona,Bilbao,2026-06-09,11.84,75.92,Básico
+Málaga,Ceuta,2026-04-27,1.65,66.79,Básico
+Vigo,Las Palmas,2026-09-02,34.13,201.56,Premium
+Cádiz,Ceuta,2026-10-02,2.44,60.13,Básico
+Valencia,Palma,2026-03-14,12.32,90.75,Premium
+Málaga,Melilla,2026-07-10,1.06,103.25,VIP
+Barcelona,Mahón,2026-06-08,5.98,72.01,Básico
+Cádiz,Santa Cruz de Tenerife,2026-07-20,40.52,195.73,Estándar
+Valencia,Palma,2026-03-11,11.59,116.7,Estándar
+Barcelona,Palma,2026-05-13,11.28,137.12,Premium
+Mahón,Ceuta,2026-06-04,6.47,88.78,Básico
+Barcelona,Palma,2026-06-03,7.74,102.71,Básico
+Valencia,Ibiza,2026-06-03,5.71,48.83,Premium
+Almería,Melilla,2026-07-25,2.69,54.77,Premium
+Almería,Melilla,2026-11-28,2.19,45.68,Premium
+Almería,Melilla,2026-06-14,2.05,36.2,Estándar
+Málaga,Melilla,2026-03-20,2.34,51.52,Premium
+Bilbao,A Coruña,2026-07-18,17.29,81.51,Premium
+Vigo,Bilbao,2026-08-30,14.19,80.47,Premium
+Alicante,Ibiza,2026-03-14,7.7,62.28,Estándar
+Bilbao,A Coruña,2026-05-22,18.82,132.32,Premium
+Cádiz,Santa Cruz de Tenerife,2026-11-23,47.18,179.85,Básico
+Ibiza,Melilla,2026-10-04,9.38,80.65,Estándar
+Almería,Vigo,2026-08-12,14.89,77.03,Básico
+Valencia,Ibiza,2026-12-08,9.49,65.64,Premium
+Valencia,Ibiza,2026-10-04,11.45,70.08,Estándar
+Barcelona,Mahón,2026-03-21,5.92,96.59,Premium
+Cádiz,Las Palmas,2026-03-02,47.35,182.23,Básico
+Huelva,Las Palmas,2026-11-01,37.37,182.78,Básico
+Barcelona,Ibiza,2026-03-23,7.77,106.35,Estándar
+Bilbao,A Coruña,2026-12-05,17.86,123.37,Básico
+Cádiz,Santa Cruz de Tenerife,2026-03-30,47.47,242.81,Estándar
+A Coruña,Santa Cruz de Tenerife,2026-03-13,45.15,238.52,Premium
+Vigo,Las Palmas,2026-09-06,48.38,167.69,Básico
+Ibiza,Huelva,2026-05-14,10.04,96.08,Básico
+Barcelona,Palma,2026-04-17,5.8,180.78,VIP
+Málaga,Melilla,2026-08-06,3.73,40.45,Básico
+A Coruña,Santa Cruz de Tenerife,2026-07-01,47.11,208.34,Estándar
+Alicante,Ibiza,2026-07-25,7.75,73.92,Estándar
+Bilbao,Santander,2026-12-17,15.44,146.99,Estándar
+Barcelona,Palma,2026-09-29,10.8,58.31,Premium
+Vigo,Las Palmas,2026-08-16,31.24,156.06,Estándar
+Barcelona,Palma,2026-09-25,5.34,97.38,Básico
+Barcelona,Palma,2026-10-26,10.37,155.02,Premium
+Barcelona,Valencia,2026-07-30,10.94,87.86,Premium
+Barcelona,Valencia,2026-05-21,7.67,82.2,Estándar
+Vigo,Las Palmas,2026-07-29,34.6,192.45,Básico
+Cádiz,Las Palmas,2026-08-25,44.54,257.65,Premium
+Barcelona,Ibiza,2026-04-05,11.17,102.91,Premium
+Málaga,Ceuta,2026-05-09,1.45,39.6,Premium
+Valencia,Palma,2026-05-02,7.88,82.27,Básico
+Almería,Ibiza,2026-10-09,5.93,45.53,Básico
+Valencia,Palma,2026-05-31,9.99,121.29,Premium
+Vigo,Las Palmas,2026-07-21,52.31,228.95,Premium
+Valencia,Mahón,2026-09-21,7.21,108.28,Premium
+Barcelona,Ibiza,2026-09-05,7.72,73.57,Básico
+Cádiz,Ceuta,2026-08-05,6.63,70.4,Premium
+Cádiz,Ceuta,2026-03-09,3.12,58.76,Premium
+Alicante,Ibiza,2026-12-03,11.32,111.9,Premium
+Melilla,Las Palmas,2026-03-23,38.11,204.81,Básico
+Ibiza,Santa Cruz de Tenerife,2026-12-11,49.3,190.43,Premium
+Mahón,Huelva,2026-04-23,8.28,98.18,Estándar
+Bilbao,Almería,2026-04-03,18.83,107.69,Básico
+Mahón,Santa Cruz de Tenerife,2026-07-02,42.82,272.49,Premium
+Cádiz,Las Palmas,2026-07-15,42.84,329.52,VIP
+Málaga,Cádiz,2026-08-19,15.71,97.86,Premium
+Cádiz,Las Palmas,2026-06-14,40.32,202.36,Estándar
+Bilbao,Santander,2026-10-31,8.66,82.81,Premium

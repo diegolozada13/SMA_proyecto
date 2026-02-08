@@ -6,10 +6,12 @@ import csv
 from pathlib import Path
 from typing import List, Dict, Any
 
-def search_trips(origin: str, destination: str) -> List[Dict[str, Any]]:
-    data_dir = Path("data")
+def search_trips(origin: str, destination: str, date: str | None, quality: str | None) -> List[Dict[str, Any]]:
+    data_dir = Path(__file__).resolve().parents[3] / "data"
     origin = origin.strip().lower()
     destination = destination.strip().lower()
+    date = date.strip().lower() if date else None
+    quality = quality.strip().lower() if quality else None
 
     results: List[Dict[str, Any]] = []
 
@@ -25,6 +27,8 @@ def search_trips(origin: str, destination: str) -> List[Dict[str, Any]]:
                 if (
                     row["origen"].strip().lower() == origin
                     and row["destino"].strip().lower() == destination
+                    and row["fecha"].strip().lower() == date if date else True
+                    and row["calidad_del_boleto"].strip().lower() == quality if quality else True
                 ):
                     results.append({
                         "origen": row["origen"],

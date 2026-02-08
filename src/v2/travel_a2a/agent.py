@@ -80,9 +80,9 @@ root_agent = Agent(
         2) El broker te responderá con una lista de agentes disponibles y sus especialidades.
         3) Selecciona el primer agente de la lista devuelta por el broker.
         4) Llama a la herramienta `call_a2a_agent` con:
-           - El `agent_card` del agente seleccionado
+           - El `agent_card` del/los agentes seleccionados (si el broker devuelve varios, llama a la función varias veces con cada uno de ellos).
            - La solicitud original del usuario
-        5) Devuelve el resultado de la herramienta al usuario.
+        5) Devuelve el resultado de la herramienta al usuario. Si se llamó a varios agentes, devuelve un resumen de las respuestas obtenidas.
     """,
     sub_agents=[broker],
     tools=[call_a2a_agent],

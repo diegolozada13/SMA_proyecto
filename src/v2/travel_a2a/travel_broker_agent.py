@@ -49,6 +49,7 @@ Reglas estrictas:
   * si menciona avión/vuelo -> skill="vuelos"
   * si menciona tren -> skill="trenes"
   * si no está claro -> skill=None
+  * lo mismo para luxury/economy/business
 - Tu respuesta final DEBE ser SOLO el JSON devuelto por discover_agents.
 - No escribas texto natural.
 """,

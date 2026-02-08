@@ -1,5 +1,101 @@
-origen,destino,duracion,precio,calidad_del_boleto
-Valencia,Logroño,1.27,32.77,Estándar
-Santander,Pamplona,0.92,21.75,Básico
-Barcelona,Valladolid,4.85,66.92,Estándar
-Barcelona,Valladolid,1.62,38.7,Estándar
+origen,destino,fecha,duracion,precio,calidad_del_boleto
+Madrid,Málaga,2026-04-27,4.45,96.11,Premium
+Bilbao,San Sebastián,2026-03-25,6.04,168.03,Premium
+Granada,Girona,2026-09-21,3.26,82.83,Estándar
+Madrid,Salamanca,2026-12-09,4.2,105.73,Premium
+Madrid,Málaga,2026-05-21,1.04,31.5,Estándar
+Vigo,A Coruña,2026-05-01,2.62,54.85,Premium
+Vigo,A Coruña,2026-10-14,3.84,133.43,Premium
+Madrid,Barcelona,2026-03-12,3.13,75.51,Premium
+Madrid,Valladolid,2026-05-25,3.68,92.35,Estándar
+Barcelona,Zaragoza,2026-06-16,5.55,122.75,Básico
+Madrid,Zaragoza,2026-09-30,3.01,107.77,Premium
+Madrid,Bilbao,2026-08-28,5.71,129.33,Premium
+Madrid,Málaga,2026-04-01,5.75,95.78,Básico
+Barcelona,Valencia,2026-04-29,3.42,71.05,Estándar
+Madrid,Málaga,2026-08-25,3.75,72.11,Estándar
+Toledo,Santander,2026-07-13,3.53,80.87,Premium
+Logroño,Zaragoza,2026-10-22,0.94,29.06,Premium
+Madrid,Valladolid,2026-03-24,5.15,182.65,VIP
+Sevilla,Córdoba,2026-03-31,5.82,121.01,Estándar
+Valencia,Sevilla,2026-09-23,3.63,71.94,Estándar
+Oviedo,Gijón,2026-10-12,5.54,132.34,Premium
+Logroño,Zaragoza,2026-09-30,3.77,63.79,Básico
+Pamplona,Zaragoza,2026-12-15,1.79,46.79,Estándar
+Barcelona,Valencia,2026-03-15,3.89,135.6,Premium
+San Sebastián,Valencia,2026-11-25,5.96,117.42,Premium
+Madrid,Salamanca,2026-10-21,1.36,70.57,VIP
+Madrid,Zaragoza,2026-09-11,1.86,31.85,Básico
+Madrid,Valencia,2026-08-17,3.15,100.25,Premium
+Madrid,Bilbao,2026-10-12,5.79,122.64,Premium
+Huelva,Oviedo,2026-05-30,5.71,140.22,Estándar
+Barcelona,Valencia,2026-03-11,2.52,70.61,Estándar
+Pamplona,Gijón,2026-04-27,3.69,60.43,Básico
+Tarragona,Badajoz,2026-03-19,1.05,24.87,Estándar
+Logroño,Zaragoza,2026-10-15,5.36,157.64,VIP
+Gijón,Oviedo,2026-06-21,2.35,57.4,Premium
+León,Alicante,2026-05-08,4.98,148.69,Premium
+Alicante,Valencia,2026-05-23,6.26,164.72,Premium
+Pamplona,Zaragoza,2026-04-01,5.64,105.18,Básico
+Madrid,Sevilla,2026-10-27,1.23,28.39,Premium
+Valencia,Cádiz,2026-09-29,2.94,73.03,Estándar
+Madrid,Barcelona,2026-05-13,2.82,125.64,VIP
+Madrid,Valladolid,2026-03-05,3.22,85.37,Estándar
+Madrid,Valencia,2026-05-15,0.9,23.4,Premium
+Madrid,Bilbao,2026-10-24,4.64,149.29,Premium
+Barcelona,Valencia,2026-08-23,0.91,28.54,Estándar
+Alicante,Granada,2026-09-19,1.1,27.24,Básico
+Alicante,Murcia,2026-07-21,2.18,38.12,Básico
+Burgos,Granada,2026-03-01,5.21,123.65,Premium
+Madrid,Bilbao,2026-03-19,5.39,121.2,Básico
+Barcelona,Valencia,2026-07-29,3.49,83.45,Premium
+Bilbao,San Sebastián,2026-05-14,5.67,101.14,Premium
+Madrid,Sevilla,2026-09-03,3.67,82.38,Estándar
+Vigo,Salamanca,2026-05-10,1.87,62.53,Estándar
+Madrid,Toledo,2026-10-09,2.91,51.07,Básico
+Granada,Logroño,2026-07-13,4.22,110.43,Básico
+Sevilla,Tarragona,2026-09-30,4.82,140.83,Premium
+Madrid,Bilbao,2026-10-24,4.23,104.7,Premium
+Logroño,Zaragoza,2026-09-13,2.87,71.77,Premium
+Madrid,Valladolid,2026-03-04,2.32,44.25,Estándar
+Madrid,Valladolid,2026-04-22,1.17,36.76,Premium
+Pamplona,Sevilla,2026-10-09,1.74,38.11,Premium
+Córdoba,Granada,2026-10-28,4.56,94.64,Estándar
+Madrid,Valladolid,2026-04-05,4.77,115.3,Premium
+Madrid,Valencia,2026-06-16,3.86,117.5,Premium
+Granada,Burgos,2026-10-08,2.73,69.01,Premium
+Córdoba,Burgos,2026-10-30,5.36,101.41,Básico
+Vigo,A Coruña,2026-06-09,0.82,27.33,Básico
+Madrid,Valencia,2026-06-11,2.34,41.6,Premium
+Oviedo,Gijón,2026-04-20,1.4,40.29,Estándar
+Madrid,Zaragoza,2026-03-21,2.45,57.57,Premium
+Cádiz,Almería,2026-07-15,4.53,101.01,Premium
+Logroño,Zaragoza,2026-09-13,2.75,81.17,Premium
+Vigo,A Coruña,2026-04-09,3.95,78.31,Estándar
+Logroño,Zaragoza,2026-07-01,2.11,42.91,Premium
+Alicante,Murcia,2026-05-30,3.92,114.12,Premium
+Bilbao,San Sebastián,2026-07-27,2.66,47.25,Estándar
+Alicante,Murcia,2026-08-31,2.59,93.47,Premium
+Córdoba,Granada,2026-08-25,5.5,136.47,Estándar
+Madrid,Toledo,2026-06-17,3.87,123.36,Premium
+León,Zaragoza,2026-04-01,3.77,117.55,Premium
+Pamplona,Zaragoza,2026-10-14,3.55,98.05,Premium
+Madrid,Málaga,2026-09-12,4.78,99.44,Premium
+Córdoba,Granada,2026-09-21,5.6,109.43,Básico
+Madrid,Sevilla,2026-05-17,5.47,95.57,Premium
+Córdoba,Granada,2026-03-15,2.67,71.91,Premium
+Madrid,Sevilla,2026-05-29,4.22,100.89,Premium
+Logroño,Zaragoza,2026-11-12,3.51,61.72,Premium
+Toledo,Valladolid,2026-12-16,3.62,66.69,Básico
+Barcelona,Zaragoza,2026-05-01,2.95,116.69,VIP
+Vigo,A Coruña,2026-04-30,5.46,123.42,Básico
+Madrid,Málaga,2026-09-24,3.15,56.73,Premium
+Huelva,Córdoba,2026-12-03,3.45,60.37,Básico
+Madrid,Toledo,2026-05-29,2.07,43.68,Premium
+Madrid,Barcelona,2026-07-28,2.89,68.45,Premium
+Valladolid,Murcia,2026-07-03,5.05,106.95,Estándar
+Madrid,Valencia,2026-07-04,2.43,50.16,Básico
+Logroño,Zaragoza,2026-11-09,2.6,72.6,Básico
+Madrid,Málaga,2026-11-23,0.85,28.85,Básico
+Madrid,Zaragoza,2026-05-11,3.83,71.94,Estándar
+Oviedo,Gijón,2026-06-22,1.89,49.45,Premium
