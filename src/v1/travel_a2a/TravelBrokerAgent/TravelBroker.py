@@ -8,7 +8,7 @@ AGENT_CATALOG = [
     {
         "name": "",
         "agent_card": "http://localhost:8001/.well-known/agent-card.json",
-        "skills": ["vuelos", "barcos", "trenes", "luxury", "economy", "bussines"],
+        "skills": ["vuelos", "barcos", "trenes", "luxury", "economy", "business"],
         "description": "Agencia integral con conocimiento global de rutas marítimas y aéreas."
     }
 ]
@@ -39,7 +39,7 @@ travel_broker_agent = Agent(
     tools=[discover_agents],
 )
 
-a2a_app = to_a2a(travel_broker_agent, port=8005)
+a2a_app = to_a2a(travel_broker_agent, port=8001)
 
-if __name__ == "__main__":
-    uvicorn.run(a2a_app, host="localhost", port=8005)
+# if __name__ == "__main__":
+#     uvicorn.run(a2a_app, host="localhost", port=8001)

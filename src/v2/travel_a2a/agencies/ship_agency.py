@@ -1,4 +1,4 @@
-# flight_provider.py
+# ship_provider.py
 from google.adk.agents.llm_agent import Agent
 from google.adk.a2a.utils.agent_to_a2a import to_a2a
 from google.adk.models.lite_llm import LiteLlm
@@ -14,7 +14,7 @@ def search_trips(origin: str, destination: str) -> List[Dict[str, Any]]:
     results: List[Dict[str, Any]] = []
 
     for i in range(1, 4):
-        csv_path = data_dir / f"flight_agency_{i}.csv"
+        csv_path = data_dir / f"ship_agency_{i}.csv"
         if not csv_path.exists():
             continue
 
@@ -32,22 +32,22 @@ def search_trips(origin: str, destination: str) -> List[Dict[str, Any]]:
                         "duracion": float(row["duracion"]),
                         "precio": float(row["precio"]),
                         "calidad_del_boleto": row["calidad_del_boleto"],
-                        "agency": f"flight_agency_{i}"
+                        "agency": f"ship_agency_{i}"
                     })
 
     return results
 
 agent = Agent(
-    name="flight_provider",
+    name="ship_agency",
     model=LiteLlm(model="openai/gpt-oss-120b", api_base="https://api.poligpt.upv.es/", api_key="sk-LFXs1kjaSxtEDgOMlPUOpA"),
     instruction="""
-    Eres una agencia de viajes en avión.
+    Eres una agencia de viajes en barcos.
     Reglas:
-    - Debes responder a las solicitudes de viajes en avión.
+    - Debes responder a las solicitudes de viajes en barco.
     - Cuando el usuario solicite opciones de viaje, debes llamar a la herramienta `search_trips`.
     - La respuesta final debe ser exactamente el resultado de la herramienta.
     """,
     tools=[search_trips],
 )
 
-a2a_app = to_a2a(agent, port=8004)
+a2a_app = to_a2a(agent, port=8003)

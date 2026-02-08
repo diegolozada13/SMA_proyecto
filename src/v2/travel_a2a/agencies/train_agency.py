@@ -38,7 +38,7 @@ def search_trips(origin: str, destination: str) -> List[Dict[str, Any]]:
     return results
 
 agent = Agent(
-    name="train_provider",
+    name="train_agency",
     model=LiteLlm(model="openai/gpt-oss-120b", api_base="https://api.poligpt.upv.es/", api_key="sk-LFXs1kjaSxtEDgOMlPUOpA"),
     instruction="""
     Eres una agencia de viajes en tren.
