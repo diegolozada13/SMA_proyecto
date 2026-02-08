@@ -1,0 +1,201 @@
+origen,destino,duracion,precio,calidad_del_boleto
+Murcia,Cádiz,9.06,121.67,Premium
+Tarragona,Alicante,10.16,119.42,Básico
+Lugo,Santander,14.95,133.15,Estándar
+Vigo,Castellón,14.56,159.92,Estándar
+Castellón,Palma,7.9,111.39,Estándar
+Castellón,Bilbao,10.13,128.1,Básico
+Tarragona,Alicante,8.98,65.89,Básico
+Tarragona,Alicante,15.69,157.72,Estándar
+Tarragona,Alicante,16.94,138.86,Premium
+Gijón,Málaga,16.55,234.49,Estándar
+Tarragona,Alicante,6.66,64.4,Estándar
+A Coruña,Alicante,5.86,72.19,Básico
+Murcia,A Coruña,9.7,82.33,Estándar
+Vigo,Las Palmas,16.52,209.06,Básico
+Murcia,A Coruña,3.87,84.71,VIP
+Málaga,Las Palmas,22.36,171.17,Estándar
+Santa Cruz de Tenerife,Alicante,13.77,99.47,Básico
+Santa Cruz de Tenerife,Alicante,20.64,179.05,Básico
+Vigo,Las Palmas,17.11,152.55,Básico
+Murcia,Cádiz,14.51,134.89,Básico
+Murcia,A Coruña,7.35,93.82,Básico
+Málaga,Alicante,4.09,62.33,Básico
+Bilbao,Huelva,8.96,140.1,Básico
+Murcia,Cádiz,13.75,151.71,Básico
+Tarragona,Alicante,7.56,70.58,Estándar
+Vigo,Castellón,5.76,53.64,Básico
+Cádiz,Alicante,3.48,50.82,Básico
+Girona,Huelva,12.47,90.47,Básico
+Murcia,Las Palmas,23.74,309.29,Estándar
+Huelva,Murcia,15.24,217.94,Básico
+Málaga,Las Palmas,20.94,177.49,Estándar
+Málaga,Las Palmas,25.61,194.19,Básico
+Almería,Palma,16.2,176.38,Básico
+Valencia,Las Palmas,21.65,174.54,Básico
+Cádiz,Huelva,16.2,136.0,Básico
+Málaga,Lugo,15.91,146.47,Premium
+Cádiz,Santa Cruz de Tenerife,20.07,180.55,Estándar
+Cádiz,Huelva,5.4,53.9,Estándar
+Cádiz,Alicante,17.33,204.57,Estándar
+Castellón,Gijón,11.46,92.55,Básico
+Málaga,Lugo,13.66,152.09,Estándar
+Santa Cruz de Tenerife,Alicante,12.72,188.24,Básico
+Cádiz,Murcia,9.64,95.48,Básico
+Cádiz,Huelva,6.87,93.38,Básico
+Tarragona,Alicante,12.84,157.37,Básico
+Tarragona,Alicante,7.87,72.38,Estándar
+Málaga,Tarragona,5.63,70.97,Básico
+Santa Cruz de Tenerife,Alicante,18.5,196.7,Básico
+Almería,Palma,14.16,181.36,Básico
+Cádiz,Murcia,17.09,173.69,Premium
+Cádiz,Murcia,9.0,77.34,Estándar
+Huelva,Murcia,12.37,150.97,Básico
+Huelva,Castellón,8.55,92.59,Estándar
+Cádiz,Murcia,8.01,94.59,Estándar
+Murcia,Cádiz,16.47,129.71,Básico
+Bilbao,Lugo,10.92,177.7,Estándar
+Santa Cruz de Tenerife,Alicante,18.46,222.33,Básico
+Málaga,Las Palmas,17.48,163.23,Estándar
+Castellón,Gijón,8.17,76.24,Estándar
+Málaga,Las Palmas,18.75,202.11,Premium
+Cádiz,Gijón,8.06,96.45,Estándar
+Castellón,Bilbao,12.03,130.69,Premium
+Gijón,Vigo,17.48,151.54,Estándar
+Murcia,A Coruña,4.61,70.02,Estándar
+Tarragona,Alicante,6.56,78.74,Estándar
+Lugo,Barcelona,6.7,127.63,Premium
+Santa Cruz de Tenerife,Alicante,17.3,182.81,Básico
+Santa Cruz de Tenerife,Alicante,29.21,207.75,Estándar
+Murcia,A Coruña,15.26,117.28,Estándar
+Huelva,Murcia,12.25,110.17,Básico
+Murcia,Alicante,7.03,54.86,Básico
+Santa Cruz de Tenerife,Alicante,26.96,334.1,Básico
+Cádiz,Alicante,8.25,106.81,Premium
+Cádiz,Huelva,7.49,120.13,Estándar
+Las Palmas,Gijón,17.48,178.67,Básico
+Bilbao,Palma,17.26,194.27,Básico
+Murcia,A Coruña,9.51,112.82,Premium
+A Coruña,Lugo,11.68,126.66,Estándar
+Málaga,Lugo,5.18,51.94,Básico
+A Coruña,Alicante,7.94,98.81,Básico
+Alicante,Vigo,15.18,114.07,Básico
+Cádiz,Alicante,14.59,203.74,Estándar
+Huelva,Murcia,3.96,48.67,Básico
+Alicante,Huelva,16.48,127.99,Básico
+Castellón,Lugo,14.33,165.16,Estándar
+Castellón,Bilbao,12.71,83.16,Básico
+Almería,Palma,12.63,122.98,Estándar
+Tarragona,Alicante,8.01,155.89,Premium
+Palma,Murcia,3.76,37.54,Básico
+Alicante,A Coruña,16.91,276.92,Premium
+Vigo,Las Palmas,16.98,244.23,Estándar
+Málaga,Las Palmas,19.84,226.61,Estándar
+Vigo,Las Palmas,25.98,232.77,Estándar
+Almería,Tarragona,10.86,118.17,Premium
+Castellón,Gijón,10.55,125.14,Premium
+Tarragona,Málaga,7.17,97.7,Básico
+Santa Cruz de Tenerife,Valencia,25.09,485.58,Premium
+Almería,Santander,5.05,54.88,Básico
+Las Palmas,Gijón,24.86,356.69,Estándar
+Las Palmas,A Coruña,23.17,327.89,Estándar
+Málaga,Tarragona,16.66,193.63,Estándar
+Málaga,Las Palmas,20.87,186.8,Estándar
+Almería,Alicante,5.13,46.92,Básico
+Las Palmas,Gijón,25.02,246.56,Básico
+Vigo,Gijón,11.5,133.24,Básico
+Tarragona,Alicante,17.94,231.93,Básico
+Santa Cruz de Tenerife,Alicante,20.68,327.1,Estándar
+Cádiz,Santa Cruz de Tenerife,22.91,180.14,Básico
+Santa Cruz de Tenerife,Alicante,15.22,244.16,Estándar
+Vigo,Málaga,14.85,135.21,Básico
+Málaga,Valencia,13.57,123.03,Premium
+Vigo,Las Palmas,19.81,168.33,Básico
+Cádiz,Huelva,8.42,128.54,Estándar
+Almería,Palma,5.53,76.32,Básico
+Santa Cruz de Tenerife,Alicante,16.77,325.53,VIP
+Vigo,Las Palmas,21.82,298.4,Estándar
+Santander,Bilbao,7.85,85.06,Básico
+Málaga,A Coruña,7.95,91.64,Estándar
+Castellón,Lugo,11.02,183.2,Estándar
+Vigo,Las Palmas,21.21,203.85,Estándar
+Málaga,Lugo,7.26,71.63,Básico
+Lugo,Málaga,9.18,117.42,Básico
+Huelva,Valencia,11.77,164.33,Básico
+Murcia,Cádiz,11.54,103.34,Estándar
+Almería,Palma,8.04,142.53,Premium
+Castellón,Palma,15.76,139.29,Básico
+Castellón,Lugo,11.81,208.52,Premium
+Tarragona,Málaga,8.37,74.74,Básico
+Tarragona,Málaga,5.29,77.27,Básico
+Cádiz,Tarragona,6.09,55.54,Estándar
+Castellón,Palma,6.84,101.14,Estándar
+Castellón,Bilbao,9.87,124.56,Estándar
+Castellón,Bilbao,14.28,145.42,Básico
+Lugo,Barcelona,5.27,50.95,Básico
+Málaga,Santa Cruz de Tenerife,15.72,178.76,Básico
+Huelva,A Coruña,12.23,94.98,Estándar
+Cádiz,Huelva,6.7,75.57,Básico
+Lugo,Barcelona,4.86,53.45,Estándar
+Tarragona,Málaga,14.03,223.24,Premium
+Castellón,Lugo,7.54,98.94,Básico
+Huelva,Murcia,4.12,74.47,Premium
+Málaga,Las Palmas,11.37,175.02,Estándar
+Alicante,Vigo,4.64,44.5,Básico
+Palma,Girona,14.51,181.98,Básico
+Tarragona,Alicante,9.51,194.0,Premium
+Murcia,A Coruña,14.65,162.18,Básico
+Vigo,Castellón,7.32,106.86,Básico
+Málaga,A Coruña,14.01,201.57,Básico
+Girona,Tarragona,6.25,82.1,Estándar
+Bilbao,Málaga,15.83,222.23,Premium
+Málaga,Las Palmas,18.05,199.6,Estándar
+Gijón,Málaga,10.38,124.91,Básico
+Castellón,Lugo,6.79,60.77,Básico
+Alicante,Vigo,8.55,128.18,Premium
+Barcelona,Málaga,17.12,157.74,Básico
+Málaga,Lugo,6.79,95.04,Estándar
+Málaga,Lugo,16.2,209.09,Básico
+Málaga,Las Palmas,22.0,399.0,Premium
+Vigo,Las Palmas,14.6,153.82,Estándar
+Tarragona,Alicante,11.27,155.12,Estándar
+Vigo,Las Palmas,18.9,146.56,Básico
+Lugo,Barcelona,9.95,117.65,Básico
+Santa Cruz de Tenerife,Alicante,19.22,241.57,Premium
+Castellón,Lugo,14.02,134.92,Básico
+Valencia,Vigo,15.55,202.57,Estándar
+Cádiz,Huelva,5.92,72.43,Estándar
+Málaga,Palma,14.03,179.01,Estándar
+Cádiz,Huelva,18.64,183.63,Básico
+Las Palmas,A Coruña,19.26,300.38,Premium
+Cádiz,Santa Cruz de Tenerife,30.34,261.23,Estándar
+Las Palmas,Valencia,19.6,160.53,Estándar
+Castellón,Palma,16.05,134.08,Estándar
+Vigo,Las Palmas,12.95,126.91,Básico
+Castellón,Gijón,15.95,115.17,Básico
+Cádiz,Murcia,5.61,86.98,Estándar
+Palma,Castellón,11.43,141.55,Estándar
+Santa Cruz de Tenerife,Alicante,29.35,210.25,Estándar
+Málaga,Murcia,9.23,95.03,Premium
+Barcelona,Castellón,11.55,112.99,Básico
+Castellón,Palma,5.17,60.79,Estándar
+Castellón,Lugo,8.46,106.01,Estándar
+Gijón,Bilbao,6.22,69.99,Básico
+A Coruña,Alicante,5.98,77.52,Básico
+Alicante,Bilbao,14.77,137.77,Básico
+Lugo,Barcelona,11.01,148.75,Premium
+Valencia,Huelva,17.8,199.66,Estándar
+Bilbao,Murcia,17.94,138.97,Estándar
+Castellón,Palma,17.72,136.17,Básico
+Las Palmas,A Coruña,13.67,96.55,Básico
+Palma,Almería,7.38,73.05,Básico
+Las Palmas,A Coruña,22.17,386.21,Premium
+Santa Cruz de Tenerife,Alicante,20.06,148.78,Básico
+Castellón,Palma,12.62,132.3,Básico
+A Coruña,Alicante,11.63,138.71,Estándar
+Castellón,Lugo,15.53,241.27,VIP
+Santa Cruz de Tenerife,Alicante,29.06,355.26,Estándar
+Lugo,Barcelona,6.2,59.55,Básico
+Santa Cruz de Tenerife,Alicante,16.93,124.74,Estándar
+Lugo,Santander,18.26,179.38,Básico
+Murcia,Cádiz,9.45,159.15,Estándar

@@ -1,0 +1,201 @@
+origen,destino,duracion,precio,calidad_del_boleto
+Vigo,Madrid,2.84,126.1,Estándar
+Sevilla,Málaga,1.09,57.71,Estándar
+A Coruña,Alicante,1.79,73.64,Premium
+Las Palmas,Sevilla,3.39,90.49,Estándar
+Barcelona,Sevilla,2.75,112.8,Básico
+Sevilla,Santander,3.12,138.95,Básico
+Alicante,Santa Cruz de Tenerife,3.79,97.93,Básico
+Sevilla,Santander,3.27,75.79,Básico
+Palma,Zaragoza,0.57,36.66,Básico
+Bilbao,Palma,2.63,68.58,Estándar
+Valencia,Málaga,1.17,59.48,Estándar
+Granada,Palma,3.03,124.89,Estándar
+Barcelona,Santa Cruz de Tenerife,2.16,78.74,Básico
+Sevilla,Santander,2.16,54.96,Básico
+Sevilla,Santander,3.09,128.8,Premium
+Vigo,A Coruña,2.56,134.54,Premium
+Las Palmas,Sevilla,2.73,215.13,VIP
+Santander,Málaga,2.13,88.96,Básico
+Zaragoza,Santander,1.99,59.35,Básico
+Sevilla,Santander,3.87,149.12,Estándar
+Sevilla,Santander,2.62,89.96,Básico
+Granada,Palma,3.82,176.3,Estándar
+Granada,A Coruña,1.98,86.67,Básico
+Granada,Barcelona,2.34,88.99,Estándar
+Granada,Barcelona,1.39,84.41,Premium
+Madrid,Santander,1.2,60.95,Básico
+Las Palmas,Santander,3.85,142.27,Básico
+Sevilla,Santander,3.29,135.51,Básico
+Las Palmas,Sevilla,2.97,108.13,Estándar
+Valencia,Palma,3.26,219.76,VIP
+Granada,Zaragoza,1.4,49.46,Básico
+Vigo,A Coruña,1.3,74.95,Premium
+Las Palmas,Sevilla,2.12,92.82,Básico
+Bilbao,Palma,1.19,53.33,Básico
+Alicante,Santa Cruz de Tenerife,4.21,131.48,Estándar
+Valencia,Madrid,2.26,70.56,Estándar
+Sevilla,Santander,2.83,66.55,Básico
+Barcelona,Vigo,1.12,76.39,VIP
+Bilbao,Palma,2.88,88.65,Básico
+Madrid,Santa Cruz de Tenerife,4.6,270.82,VIP
+Valencia,Málaga,3.33,83.16,Básico
+Granada,Zaragoza,1.76,59.63,Básico
+A Coruña,Alicante,1.54,58.15,Estándar
+Valencia,Madrid,1.88,134.6,VIP
+Vigo,A Coruña,1.6,69.62,Estándar
+Granada,Palma,2.26,82.56,Estándar
+Barcelona,Sevilla,2.34,86.2,Básico
+Valencia,Santander,1.83,86.41,Estándar
+Sevilla,Santander,1.19,65.61,Premium
+Sevilla,Santander,3.59,193.95,VIP
+Zaragoza,Madrid,2.02,73.84,Estándar
+Bilbao,Palma,2.85,97.28,Básico
+Sevilla,Málaga,3.21,122.12,Básico
+Vigo,A Coruña,1.66,69.93,Básico
+Barcelona,Sevilla,2.71,131.68,Estándar
+Granada,Palma,2.28,101.11,Estándar
+Valencia,Alicante,2.96,93.53,Básico
+A Coruña,Sevilla,3.68,91.82,Básico
+Las Palmas,Sevilla,3.1,138.68,Estándar
+A Coruña,Alicante,1.23,52.0,Estándar
+Madrid,Santa Cruz de Tenerife,4.93,115.55,Básico
+Valencia,Sevilla,1.74,52.11,Básico
+Valencia,Madrid,1.2,56.19,Básico
+Granada,Barcelona,1.3,49.94,Básico
+Madrid,Santa Cruz de Tenerife,3.43,170.51,Premium
+Valencia,Madrid,3.08,138.49,Estándar
+Vigo,Santander,1.98,95.37,Estándar
+Granada,Palma,3.55,108.58,Básico
+Sevilla,Santander,2.03,74.4,Básico
+Barcelona,Santa Cruz de Tenerife,3.14,107.1,Básico
+Vigo,Bilbao,1.74,63.87,Básico
+Bilbao,Málaga,1.81,83.79,Estándar
+Granada,Málaga,2.63,168.51,VIP
+Alicante,Santa Cruz de Tenerife,4.0,107.0,Estándar
+Barcelona,Bilbao,0.78,36.49,Básico
+Bilbao,Zaragoza,2.23,69.72,Básico
+Valencia,Las Palmas,3.13,127.19,Estándar
+Alicante,Santa Cruz de Tenerife,1.66,57.43,Básico
+Santa Cruz de Tenerife,Granada,1.76,47.6,Básico
+Barcelona,Sevilla,1.69,54.39,Básico
+Zaragoza,Santander,2.54,77.25,Estándar
+Valencia,A Coruña,2.46,65.72,Básico
+Sevilla,Santander,3.06,93.28,Básico
+Alicante,Santa Cruz de Tenerife,3.37,145.89,Estándar
+Alicante,Vigo,2.31,66.54,Estándar
+A Coruña,Sevilla,1.66,54.82,Básico
+Alicante,Vigo,0.97,49.82,Básico
+Madrid,Santa Cruz de Tenerife,4.85,159.02,Básico
+Las Palmas,Sevilla,4.52,180.31,VIP
+Alicante,Sevilla,2.76,107.98,Básico
+A Coruña,Vigo,0.87,40.4,Básico
+Valencia,Las Palmas,3.49,145.17,Estándar
+A Coruña,Alicante,1.95,109.41,Premium
+Santander,Barcelona,2.06,67.85,Básico
+Zaragoza,Santander,1.33,78.37,Estándar
+Alicante,Santa Cruz de Tenerife,2.77,80.23,Estándar
+A Coruña,Alicante,3.29,80.67,Básico
+Zaragoza,Barcelona,1.8,69.19,Básico
+Palma,Santa Cruz de Tenerife,4.25,156.67,Premium
+Valencia,Las Palmas,2.38,95.9,Estándar
+Valencia,Las Palmas,3.58,93.62,Básico
+Granada,Barcelona,2.72,103.61,Estándar
+Alicante,Santa Cruz de Tenerife,3.61,235.6,VIP
+Vigo,Bilbao,3.41,130.05,Estándar
+A Coruña,Alicante,1.54,63.77,Estándar
+A Coruña,Vigo,3.3,106.97,Básico
+Barcelona,Sevilla,3.37,93.8,Estándar
+Granada,Zaragoza,1.97,74.21,Estándar
+Valencia,Alicante,2.73,127.33,Estándar
+Barcelona,Sevilla,1.42,55.23,Básico
+Las Palmas,Alicante,3.09,126.58,Básico
+Santa Cruz de Tenerife,A Coruña,2.17,96.0,Básico
+Barcelona,Santa Cruz de Tenerife,2.21,72.22,Estándar
+Málaga,Santander,2.14,87.58,Estándar
+Sevilla,Santander,1.77,97.32,Premium
+Valencia,Madrid,2.73,87.85,Básico
+Sevilla,Santander,2.23,98.31,Básico
+Madrid,Sevilla,3.02,170.08,Premium
+Barcelona,Santa Cruz de Tenerife,2.05,86.31,Básico
+Sevilla,Santander,2.45,84.72,Básico
+Vigo,A Coruña,2.32,113.57,Premium
+Valencia,Málaga,3.14,131.53,Premium
+Valencia,Málaga,3.39,92.73,Estándar
+Valencia,Sevilla,0.94,57.59,Estándar
+Valencia,Madrid,3.4,169.11,VIP
+Valencia,Las Palmas,2.53,68.92,Básico
+Barcelona,Sevilla,1.26,58.25,Básico
+Las Palmas,Santander,3.85,161.25,Básico
+Valencia,Málaga,1.76,67.22,Básico
+Alicante,Vigo,2.59,130.59,Premium
+Santander,Málaga,2.94,81.71,Estándar
+Málaga,A Coruña,3.1,128.15,Básico
+Madrid,Málaga,3.68,74.22,Básico
+Madrid,Zaragoza,1.01,73.06,Premium
+Madrid,Santa Cruz de Tenerife,2.79,148.56,Premium
+Alicante,Sevilla,1.85,69.76,Básico
+Zaragoza,Santander,3.35,136.55,Estándar
+Bilbao,Palma,0.71,47.78,Estándar
+Valencia,Sevilla,2.2,55.79,Básico
+Málaga,Zaragoza,1.48,103.54,VIP
+Granada,Madrid,3.36,118.97,Básico
+Granada,Las Palmas,3.07,121.37,Básico
+Alicante,Santa Cruz de Tenerife,3.02,125.47,Estándar
+Valencia,Sevilla,2.41,79.63,Básico
+Santander,Las Palmas,3.12,86.32,Estándar
+Vigo,A Coruña,3.25,109.75,Premium
+Vigo,Bilbao,3.19,77.09,Estándar
+Bilbao,Vigo,3.68,130.33,Básico
+Valencia,Santander,0.68,36.69,Básico
+Bilbao,Málaga,2.02,105.43,Estándar
+Valencia,Sevilla,2.05,73.21,Estándar
+Sevilla,Santander,3.29,83.16,Básico
+Santander,Málaga,1.31,72.26,Estándar
+A Coruña,Sevilla,3.0,82.19,Básico
+A Coruña,Sevilla,1.92,83.59,Básico
+Granada,Zaragoza,3.37,88.16,Básico
+Valencia,A Coruña,3.21,89.23,Básico
+Bilbao,Palma,1.2,44.63,Estándar
+Málaga,Madrid,1.77,108.59,VIP
+Granada,Valencia,2.6,91.46,Estándar
+Valencia,Madrid,2.86,110.37,Básico
+Barcelona,Santa Cruz de Tenerife,1.54,53.52,Básico
+Madrid,Santa Cruz de Tenerife,3.28,196.51,VIP
+Barcelona,Santa Cruz de Tenerife,3.88,104.27,Estándar
+A Coruña,Alicante,2.9,67.87,Básico
+Valencia,Sevilla,2.62,118.26,Estándar
+Valencia,Bilbao,2.6,67.65,Básico
+Sevilla,Santander,2.2,94.09,Básico
+Vigo,Sevilla,1.6,109.45,Premium
+Valencia,Santander,1.76,150.86,VIP
+Madrid,Palma,3.01,82.49,Básico
+Valencia,Las Palmas,2.0,71.34,Estándar
+Bilbao,Palma,1.89,76.76,Básico
+Bilbao,Las Palmas,3.19,78.02,Básico
+Sevilla,Málaga,1.31,59.21,Premium
+Alicante,Santa Cruz de Tenerife,2.18,115.95,Estándar
+Las Palmas,Sevilla,2.87,111.51,Básico
+Barcelona,Santa Cruz de Tenerife,2.97,126.82,Básico
+Zaragoza,Vigo,1.11,48.55,Básico
+A Coruña,Vigo,2.59,77.53,Estándar
+Granada,Palma,2.44,79.51,Básico
+Málaga,Madrid,2.15,65.3,Estándar
+A Coruña,Málaga,2.54,95.58,Básico
+Bilbao,Palma,3.31,121.88,Premium
+Valencia,Santander,1.95,82.0,Básico
+Vigo,Sevilla,3.03,78.41,Básico
+Barcelona,Valencia,2.21,57.65,Básico
+Vigo,A Coruña,2.09,80.04,Premium
+Santa Cruz de Tenerife,Zaragoza,3.24,86.78,Estándar
+Madrid,Las Palmas,4.29,128.77,Básico
+Alicante,Palma,2.72,64.43,Básico
+Alicante,Vigo,0.98,42.39,Estándar
+Granada,Palma,2.71,103.08,Básico
+Málaga,Valencia,2.88,128.61,Premium
+Madrid,Santa Cruz de Tenerife,2.52,77.97,Estándar
+A Coruña,Sevilla,3.17,117.09,Básico
+Las Palmas,Sevilla,2.72,103.56,Básico
+Sevilla,A Coruña,1.46,47.02,Estándar
+Granada,Barcelona,1.27,79.18,Premium
+Santa Cruz de Tenerife,Santander,4.03,118.16,Básico
