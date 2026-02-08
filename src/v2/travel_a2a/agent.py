@@ -20,7 +20,7 @@ import uuid
 
 def call_a2a_agent(agent_card_url: str, user_request: str) -> dict:
     """Dynamic A2A call compatible with your ADK remote agent."""
-
+    print(f"Calling A2A agent at {agent_card_url} with request: {user_request}")
     card = requests.get(agent_card_url, timeout=10).json()
     service_url = card["url"]
 
@@ -75,19 +75,15 @@ root_agent = Agent(
     name="client_agent",
     model=LiteLlm(model="openai/gpt-oss-120b", api_base="https://api.poligpt.upv.es/", api_key="sk-LFXs1kjaSxtEDgOMlPUOpA"),
     instruction="""
-You MUST follow this workflow:
-
-1. Ask the travel broker for agents matching the user's requirement.
-2. You will receive a JSON list of agents.
-3. Select the FIRST agent from the list.
-4. Call the tool `call_a2a_agent` using:
-   - agent_card from the selected agent
-   - the original user request
-5. Return the tool result to the user.
-
-You CANNOT invoke agents yourself.
-You MUST use the tool.
-""",
+        Debes seguir el siguiente proceso para atender la solicitud del usuario:
+        1) Pregunta al broker por agentes que puedan ayudar con la solicitud del usuario.
+        2) El broker te responderá con una lista de agentes disponibles y sus especialidades.
+        3) Selecciona el primer agente de la lista devuelta por el broker.
+        4) Llama a la herramienta `call_a2a_agent` con:
+           - El `agent_card` del agente seleccionado
+           - La solicitud original del usuario
+        5) Devuelve el resultado de la herramienta al usuario.
+    """,
     sub_agents=[broker],
     tools=[call_a2a_agent],
 )
