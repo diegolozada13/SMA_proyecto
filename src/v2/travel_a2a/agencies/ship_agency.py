@@ -7,7 +7,8 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 def search_trips(origin: str, destination: str) -> List[Dict[str, Any]]:
-    data_dir = Path("data")
+    data_dir = Path(__file__).resolve().parents[3] / "data"
+    print(f"Searching trips from {origin} to {destination} in ship agencies... {data_dir}")
     origin = origin.strip().lower()
     destination = destination.strip().lower()
 
