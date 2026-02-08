@@ -7,7 +7,7 @@ from google.adk.models.lite_llm import LiteLlm
 AGENT_CATALOG = [
     {
         "name": "",
-        "agent_card": "http://localhost:8001/.well-known/agent-card.json",
+        "agent_card": "http://localhost:8002/.well-known/agent-card.json",
         "skills": ["vuelos", "barcos", "trenes", "luxury", "economy", "business"],
         "description": "Agencia integral con conocimiento global de rutas marítimas y aéreas."
     }
@@ -34,12 +34,8 @@ travel_broker_agent = Agent(
     - DEBES usar la herramienta 'discover_agents' para obtener los datos del agente.
     - NO respondas en lenguaje natural.
     - Devuelve ÚNICAMENTE el JSON crudo que genera la herramienta.
-    - Si el usuario pregunta por 'Maldivas' o 'Barco', selecciona al agente 'oracle_travel_agency'.
     """,
     tools=[discover_agents],
 )
 
 a2a_app = to_a2a(travel_broker_agent, port=8001)
-
-# if __name__ == "__main__":
-#     uvicorn.run(a2a_app, host="localhost", port=8001)

@@ -1,4 +1,3 @@
-# root_agent.py
 from google.adk.agents import LlmAgent, SequentialAgent, ParallelAgent
 from google.adk.agents.remote_a2a_agent import (
     RemoteA2aAgent,
@@ -14,7 +13,6 @@ import requests
 import json
 import httpx
 import uuid
-#from a2a.types import Message, TextContent, MessageRole
 
 
 
@@ -44,7 +42,6 @@ def call_a2a_agent(agent_card_url: str, user_request: str) -> dict:
     resp.raise_for_status()
     data = resp.json()
 
-    # 4) intentar extraer artifacts (respuesta útil)
     result = data.get("result", {})
     artifacts = result.get("artifacts", [])
 
@@ -75,19 +72,24 @@ root_agent = Agent(
     name="client_agent",
     model=LiteLlm(model="openai/gpt-oss-120b", api_base="https://api.poligpt.upv.es/", api_key="sk-LFXs1kjaSxtEDgOMlPUOpA"),
     instruction="""
-You MUST follow this workflow:
+    ERES UN MOTOR DE EJECUCIÓN AUTÓNOMO. 
+    TU OBJETIVO ES CONECTAR AL USUARIO CON EL AGENTE QUE PUEDA RESOLVER SU PETICIÓN.
+    
+    DEFINICIÓN DE "HECHO":
+    - Solo terminas cuando tengas la respuesta del agente final.
+    - Si solo tienes un JSON con agentes -> NO HAS TERMINADO.
+    - Si solo sabes quién puede ayudar -> NO HAS TERMINADO.
 
-1. Ask the travel broker for agents matching the user's requirement.
-2. You will receive a JSON list of agents.
-3. Select the FIRST agent from the list.
-4. Call the tool `call_a2a_agent` using:
-   - agent_card from the selected agent
-   - the original user request
-5. Return the tool result to the user.
+    REGLAS DE COMPORTAMIENTO (LEELAS ANTES DE RESPONDER):
+    1. EL USUARIO ES CIEGO A LOS PASOS INTERMEDIOS. No le muestres JSONs ni le digas "voy a contactar...". ¡HAZLO DIRECTAMENTE!
+    2. SI RECIBES DATOS DEL BROKER: Tu reacción inmediata OBLIGATORIA es llamar a la herramienta `call_a2a_agent`.
+    3. PROHIBIDO PEDIR CONFIRMACIÓN ("¿Quieres que llame a este agente?"). Asume que la respuesta es SI y llama.
 
-You CANNOT invoke agents yourself.
-You MUST use the tool.
-""",
+    TU FLUJO MENTAL:
+    Paso 1: Llamo a Broker -> Recibo JSON.
+    Paso 2: (Sin hablar al usuario) Extraigo URL del JSON y llamo a `call_a2a_agent`.
+    Paso 3: Recibo info del viaje -> SE LA MUESTRO AL USUARIO.
+    """,
     sub_agents=[broker],
     tools=[call_a2a_agent],
 )
