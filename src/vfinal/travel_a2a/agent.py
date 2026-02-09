@@ -19,7 +19,6 @@ import uuid
 
 
 def call_a2a_agent(agent_card_url: str, user_request: str) -> dict:
-    """Dynamic A2A call compatible with your ADK remote agent."""
     print(f"Calling A2A agent at {agent_card_url} with request: {user_request}")
     card = requests.get(agent_card_url, timeout=10).json()
     service_url = card["url"]
@@ -64,7 +63,7 @@ def call_a2a_agent(agent_card_url: str, user_request: str) -> dict:
 
 
 
-broker = RemoteA2aAgent(
+travel_broker = RemoteA2aAgent(
     name="travel_broker",
     description="Agent broker",
     agent_card="http://localhost:8001/.well-known/agent-card.json",
@@ -76,14 +75,14 @@ root_agent = Agent(
     model=LiteLlm(model="openai/gpt-oss-120b", api_base="https://api.poligpt.upv.es/", api_key="sk-LFXs1kjaSxtEDgOMlPUOpA"),
     instruction="""
         Debes seguir el siguiente proceso para atender la solicitud del usuario:
-        1) Pregunta al broker por agentes que puedan ayudar con la solicitud del usuario.
-        2) El broker te responderá con una lista de agentes disponibles y sus especialidades.
-        3) Selecciona el primer agente de la lista devuelta por el broker.
+        1) Pregunta al 'travel_broker' por agentes que puedan ayudar con la solicitud del usuario.
+        2) El 'travel_broker' te responderá con una lista de agentes disponibles y sus especialidades.
+        3) Selecciona el primer agente de la lista devuelta por el 'travel_broker'.
         4) Llama a la herramienta `call_a2a_agent` con:
-           - El `agent_card` del/los agentes seleccionados (si el broker devuelve varios, llama a la función varias veces con cada uno de ellos).
+           - El `agent_card` del/los agentes seleccionados (si el 'travel_broker' devuelve varios, llama a la función varias veces con cada uno de ellos).
            - La solicitud original del usuario
         5) Devuelve el resultado de la herramienta al usuario. Si se llamó a varios agentes, devuelve un resumen de las respuestas obtenidas.
     """,
-    sub_agents=[broker],
+    sub_agents=[travel_broker],
     tools=[call_a2a_agent],
 )

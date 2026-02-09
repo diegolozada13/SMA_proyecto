@@ -17,8 +17,6 @@ import uuid
 
 
 def call_a2a_agent(agent_card_url: str, user_request: str) -> dict:
-    """Dynamic A2A call compatible with your ADK remote agent."""
-
     card = requests.get(agent_card_url, timeout=10).json()
     service_url = card["url"]
 
