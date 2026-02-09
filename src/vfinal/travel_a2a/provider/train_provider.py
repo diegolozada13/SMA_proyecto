@@ -16,7 +16,7 @@ def query_all_sub_agencies(user_request: str):
     Retorna una lista de opciones encontradas por las agencias.
 
     Args:
-        user_request: La solicitud de viaje original del usuario (ej. "Vuelo de Madrid a París").
+        user_request: La solicitud de viaje original del usuario (ej. "Tren de Madrid a París").
     """
     results = []
     for agency in SUB_AGENCIES:
@@ -51,6 +51,7 @@ train_provider = Agent(
     2. DEBES llamar SIEMPRE a la herramienta `query_all_sub_agencies` con la solicitud del usuario.
     3. Si la herramienta devuelve una lista vacía o error, dilo explícitamente.
     4. Tu respuesta final debe basarse EXCLUSIVAMENTE en el retorno de la herramienta.
+    5. Si el mensaje con la informacion del usuario no tiene fecha ni calidad del viaje entendemos que da igual ambos datos busca para todas las calidades y todas las fechas en el año actual.
     """,
 
     tools=[query_all_sub_agencies],

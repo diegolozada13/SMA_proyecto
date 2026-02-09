@@ -11,14 +11,14 @@ SUB_AGENCIES = [
 ]
 
 def query_all_sub_agencies(user_request: str):
-    print(f"🔥 TOOL CALLED: query_all_sub_agencies(user_request={user_request})", flush=True)
+    print(f"TOOL CALLED: query_all_sub_agencies(user_request={user_request})", flush=True)
 
     """
     Consulta a todas las agencias secundarias disponibles enviando la petición del usuario.
     Retorna una lista de opciones encontradas por las agencias.
 
     Args:
-        user_request: La solicitud de viaje original del usuario (ej. "Vuelo de Madrid a París").
+        user_request: La solicitud de viaje original del usuario (ej. "Barco de Madrid a París").
     """
     results = []
     for agency in SUB_AGENCIES:
@@ -50,7 +50,9 @@ def query_all_sub_agencies(user_request: str):
                     }
                 }
             }
-            resp = requests.post(f"{agency['url']}/api/v1/message", json=payload, timeout=10).json()
+            # resp = requests.post(f"{agency['url']}/api/v1/message", json=payload, timeout=10).json()
+            print(f"Enviando mensaje a: {service_url}")
+            resp = requests.post(service_url, json=payload, timeout=10).json()
             content = resp.get("result", {}).get("artifacts", [{}])[0].get("parts", [{}])[0].get("text", "")
             results.append(f"Agencia {agency['name']}: {content}")
         except Exception as e:
@@ -68,6 +70,7 @@ ship_provider = Agent(
     2. DEBES llamar SIEMPRE a la herramienta `query_all_sub_agencies` con la solicitud del usuario.
     3. Si la herramienta devuelve una lista vacía o error, dilo explícitamente.
     4. Tu respuesta final debe basarse EXCLUSIVAMENTE en el retorno de la herramienta.
+    5. Si el mensaje con la informacion del usuario no tiene fecha ni calidad del viaje entendemos que da igual ambos datos busca para todas las calidades y todas las fechas en el año actual.
     """,
 
     tools=[query_all_sub_agencies],

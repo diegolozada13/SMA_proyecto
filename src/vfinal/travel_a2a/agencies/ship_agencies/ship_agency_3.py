@@ -7,7 +7,20 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 def search_trips(origin: str, destination: str, date: str | None, quality: str | None) -> List[Dict[str, Any]]:
-    print(f"🔥 TOOL CALLED: search_trips(origin={origin}, destination={destination}, date={date}, quality={quality})", flush=True)
+    """
+    Busca viajes en barco desde un origen a un destino en una fecha y calidad determinadas.
+    
+    Args:
+        origin: Origen del viaje.
+        destination: Destino del viaje.
+        date: Fecha del viaje.
+        quality: Calidad del boleto.
+    
+    Calidad del boleto y fecha del viaje no son requeridos, en caso de no tener esta informacion buscar el viaje mas barato que cumpla con el origen y destino.
+    Returns:
+        Lista de viajes encontrados.
+    """
+    print(f"TOOL CALLED: search_trips(origin={origin}, destination={destination}, date={date}, quality={quality})", flush=True)
     data_dir = Path(__file__).resolve().parents[4] / "data"
     print(f"Searching trips from {origin} to {destination} in ship agencies... {data_dir}")
     origin = origin.strip().lower()
@@ -51,6 +64,7 @@ agent = Agent(
     - Cuando el usuario solicite opciones de viaje, debes llamar a la herramienta `search_trips`.
     - Solo puedes llamar a la herramienta `search_trips`, no puedes hacer uso de otra cosa.
     - La respuesta final debe ser exactamente el resultado de la herramienta.
+    - La calidad del boleto y la fecha no son requeridos en la consulta del usuario, si no se especifican puedes elegir el viaje mas barato para la informacion que el usuario si aporto, como destino Y origen
     """,
     tools=[search_trips],
 )

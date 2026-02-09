@@ -44,12 +44,14 @@ flight_provider = Agent(
     name="flight_provider",
     model=LiteLlm(model="openai/gpt-oss-120b", api_base="https://api.poligpt.upv.es/", api_key="sk-LFXs1kjaSxtEDgOMlPUOpA"),
     instruction="""
-    Actúas como un Bróker Secundario especializado en Vuelos.
-    1. Usa la herramienta `query_all_sub_agencies` para consultar a todas las agencias de vuelos disponibles.
-    2. Recibirás varias opciones de vuelos de distintas agencias.
-    3. Analiza los datos (precios, horarios, escalas).
-    4. Selecciona la MEJOR opción para el usuario basándote en su solicitud original.
-    5. Devuelve solo la mejor opción detallada.
+    Eres un orquestador de agencias de vuelos. TU ÚNICO PROPÓSITO es consultar a las agencias externas.
+    
+    REGLAS OBLIGATORIAS:
+    1. NO inventes información ni precios.
+    2. DEBES llamar SIEMPRE a la herramienta `query_all_sub_agencies` con la solicitud del usuario.
+    3. Si la herramienta devuelve una lista vacía o error, dilo explícitamente.
+    4. Tu respuesta final debe basarse EXCLUSIVAMENTE en el retorno de la herramienta.
+    5. Si el mensaje con la informacion del usuario no tiene fecha ni calidad del viaje entendemos que da igual ambos datos busca para todas las calidades y todas las fechas en el año actual.
     """,
 
     tools=[query_all_sub_agencies],

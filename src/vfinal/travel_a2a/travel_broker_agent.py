@@ -39,14 +39,14 @@ def discover_agents(skill: str | None = None):
     Returns:
         str: Un JSON con la lista de agentes que coinciden con el criterio.
     """
-    print(f"🔥 TOOL CALLED: discover_agents(skill={skill})", flush=True)
+    print(f"TOOL CALLED: discover_agents(skill={skill})", flush=True)
     res = AGENT_CATALOG
     if skill is None:
-        print(f"✅ RETURNING ALL AGENTS ({len(AGENT_CATALOG)})")
+        print(f"RETURNING ALL AGENTS ({len(AGENT_CATALOG)})")
         return json.dumps(res)
     skill_norm = skill.strip().lower()
     res = [a for a in AGENT_CATALOG if skill_norm in [s.lower() for s in a["skills"]]]
-    print(f"✅ FOUND {len(res)} AGENTS for skill '{skill_norm}' and its {res[0]['name']}")
+    print(f"FOUND {len(res)} AGENTS for skill '{skill_norm}' and its {res[0]['name']}")
     return json.dumps(res)
 
 travel_broker = Agent(
@@ -67,10 +67,11 @@ Reglas estrictas:
   * si menciona tren -> skill="trenes"
   * si no está claro -> skill=None
   * lo mismo para luxury/economy/business
-- Tu respuesta final DEBE ser SOLO el JSON devuelto por discover_agents.
 - No escribas texto natural.
+- Ahora con el agente descubierto
 """,
     tools=[discover_agents],
+    sub_agents=[train_provider, flight_provider, ship_provider],
 )
 
 a2a_app = to_a2a(travel_broker, port=8001)
