@@ -14,8 +14,6 @@ def search_all_csvs(query: str):
     Busca el término 'query' en TODOS los archivos CSV dentro de la carpeta Data.
     Devuelve una lista combinada de resultados.
     """
-    print("HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-    print(DATA_DIR)
     if not os.path.exists(DATA_DIR):
         return f"Error: No se encuentra el directorio de datos en: {DATA_DIR}"
 

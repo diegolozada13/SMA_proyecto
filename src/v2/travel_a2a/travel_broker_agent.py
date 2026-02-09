@@ -37,7 +37,6 @@ travel_broker = Agent(
     model=LiteLlm(
         model="openai/gpt-oss-120b",
         api_base="https://api.poligpt.upv.es/",
-        api_key="sk-LFXs1kjaSxtEDgOMlPUOpA"
     ),
     instruction="""
 Eres un bróker. SIEMPRE debes llamar a la herramienta discover_agents.
